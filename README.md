@@ -5,6 +5,8 @@ Una distribución basada en Armbian diseñada para optimizar, parchear y complet
 El alcance actual del proyecto se centra en el SoC **Amlogic S905X** sobre la placa **P212** y la tarjeta de red **Realtek RTL8189ES**. Aunque este es el hardware inicial de desarrollo (y el disponible para pruebas), el proyecto está abierto a incorporar soporte para nuevos componentes en el futuro. Actualmente todas las pruebas se están haciendo con Debian Trixie, en particular en la versión de kernel 6.18.48 en el trunk 30. No puedo garantizar su funcionamiento pero sientase libre de probar en otras versiones si cuenta con los conocimientos necesarios, eso si ajustando la distribución en el script pre_instalacion.sh mencionado posteriormente.
 Este proyecto nace como una solución comunitaria ante la falta de herramientas terminadas que permitan aprovechar de forma efectiva el potencial de estos dispositivos, facilitando el acceso a drivers y kernels actualizados de forma independiente.
 
+### ⚠️Advertencia: El repositorio puede contener algunos scripts adicionales a los mencionados en este README. Si los va a usar úselos con precaución y responsabilidad, siempre revisándolos, algunos son remamentes de la fase de desarrollo del proyecto y no son necesarios para el funcionamiento de su equipo en el dia a día. Los scripts de la carpeta gestion_mmc_plantilla son solo plantilla de scripts, sólo úselos si sabe lo que hace cada comando, es un trabajo en cuerso, funciona para mi hardware pero tenga especial precaución con el suyo, podria facilmente generar un brik ya que está de momento diseñado estrictamente para mi hardware especifico, para mi MMC.
+
 ---
 
 ### ⚠️ Requisito Previo (Paso 0)
@@ -35,7 +37,7 @@ Importante: Si bien el script mencionado es seguro, aun se encuentra en fase de 
     * *A resaltar: Se está analizando la integración plena de Apt-Fast a nivel del ssitema operativo.
 *   []  **Fase 3: Instalación sin internet**: Con el fin de hacer de la distribución más accesible en zonas de dificil conectividad se plantea la generación de scripts totalmente offline en pares preparador/instalador.
 *   [ ] **Fase 4: Almacenamiento Híbrido:** Script de post-instalación para montar de forma segura la memoria interna (eMMC) y compartir archivos con Android TV. 
-    * *Estado:* En análisis con scripts plantilla iniciales.
+    * *Estado:* En análisis con scripts plantilla iniciales. Carpeta gestion_mmc_plantilla.
 *   [ ] **Fase 5: Inyección de Rendimiento:** Activación automatizada de zRAM (compresión de memoria) para optimizar los límites físicos de la RAM (1GB/2GB). 
     * *Estado:* En análisis.
 *   [ ] **Fase 6: Estación de Trabajo Ligera:** Scripts de instalación optimizada para VS Codium y Chromium Educativo con bloqueador de anuncios integrado. 
