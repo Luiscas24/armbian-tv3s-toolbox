@@ -45,7 +45,7 @@ Este proyecto **no reemplaza tu sistema actual ni elimina Android TV**. El siste
 *   [ ] **Fase 1A: Conectividad y Red (Drivers Realtek):** Integración y empaquetado del controlador de red crítico (Realtek RTL8189ES) actualmente inaccesible en imágenes base.
     * *Estado:* Pre-lanzamiento. Pendiente de pruebas finales y análisis de un posible DKMS para asegurar la persistencia del controlador.
 *   [ ] **Fase 1B: Motor del Sistema (Kernel en la Nube):** Compilación automatizada en la nube de un Kernel moderno (6.x Edge).
-    * *Estado:* En pausa temporal. Actualmente el proyecto utiliza una imagen con kernel base estable mientras se consolida el entorno de desarrollo.
+    * *Estado:* En pausa temporal. Actualmente el proyecto utiliza una imagen con kernel base estable mientras se consolida el entorno de desarrollo..
 *   [ ] **Fase 2: Entorno Base:** Generación de un entorno gráfico/consola dual ligero.
     * *Estado:* En curso. *(A resaltar: Analizando la integración plena de `apt-fast` a nivel de sistema)*.
 *   [ ] **Fase 3: Instalación sin Internet:** Creación de scripts totalmente offline (en pares preparador/instalador) para zonas de difícil conectividad.
