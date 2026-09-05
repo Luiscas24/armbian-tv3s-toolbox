@@ -62,7 +62,7 @@ Este proyecto **no reemplaza tu sistema actual ni elimina Android TV**. El siste
 ### 👥 Créditos y Autoría
 
 * **👤 Autor Principal:** Ing. Luis Daniel Castellanos Remolina (<luisda1583@gmail.com>) — *Diseño de arquitectura, pruebas de hardware, depuración y desarrollo principal.*
-* **🤖 Coautor:** Asistente de IA (Bajo estricta dirección arquitectónica del autor) — *Optimización de scripts, documentación y refinamiento de código.*
+* **🤖 Coautor:** Asistente de IA  - Gemini -(Bajo estricta dirección arquitectónica del autor) — *Optimización de scripts, documentación y refinamiento de código.*
 
 ---
 _Creado para democratizar el acceso a hardware de ultra-bajo costo con fines educativos y sociales. Este proyecto se acoge a la licencia GPL-3.0. Todas las marcas, logos y aplicaciones de terceros instaladas opcionalmente a través de los scripts pertenecen a sus respectivos propietarios legales. Esta distribución solo automatiza y optimiza su despliegue en comunidades sin fines de lucro._
